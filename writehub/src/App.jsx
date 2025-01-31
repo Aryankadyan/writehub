@@ -1,4 +1,4 @@
-import React,{useState, useEffect} from 'react'
+import React, {useState, useEffect} from 'react'
 import { useDispatch } from 'react-redux'
 import './App.css'
 import authService from "./appwrite/auth_service"
@@ -20,7 +20,7 @@ function App() {
     }
   })
   .finally(()=> setLoading(false))
- }, [])
+ },[])
    
  return !loading ? (
   <div className = 'min-h-screen flex flex-wrap content-between bg-gray-400'>
