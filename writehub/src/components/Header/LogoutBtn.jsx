@@ -9,7 +9,6 @@ function LogoutBtn() {
         authService.logout().then(()=>{
             dispatch(logout())
         })
-
     }
   return (
 <button className='inline-block px-8 py-4 duration-200 hover:bg-teal-200 rounded-full'
