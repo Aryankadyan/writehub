@@ -1,5 +1,5 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+
 import appwriteService from "../appwrite/configs"
 import {Link} from 'react-router-dom'
 
@@ -15,11 +15,6 @@ function Postcard({$id, title, featuredImage}) {
 </div>
 </Link>
   )
-}
-Postcard.propTypes = {
-  $id: PropTypes.string.isRequired,
-  title: PropTypes.string.isRequired,
-  featuredImage: PropTypes.string.isRequired,
 }
 
 export default Postcard

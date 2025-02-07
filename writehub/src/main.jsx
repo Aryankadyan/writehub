@@ -14,7 +14,7 @@ import Signup from './pages/Signup'
 import EditPost from './pages/Signup'
 import Post from './pages/Post'
 import AllPosts from './pages/AllPosts'
-import ErrorPage from './components/ErrorPage.jsx'
+import ErrorPage from './components/ErrorPage'
 
 const router = createBrowserRouter([
   {
