@@ -14,7 +14,7 @@ const Input = React.forwardRef(function Input({
                 htmlFor={id}>{label}</label>
                 }
                 <input type={type}
-                className={` px-4 py-2 rounded-lg text-black outline-none focus:bg-gray-50 duration-200 border-gray-300 w-full ${className}`}
+                className={` px-4 py-2 rounded-lg text-black outline-none focus:bg-gray-200 duration-200 border-gray-400 w-full ${className}`}
                 // reference taken from user as a prop, will give reference to the parent component
                 ref={ref}
                 {...props}
